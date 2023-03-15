@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Bakery</h1>
+      <p>Homemade cakes and pastries</p>
+      <img src='https://www.expedit.eu/media/11173/bakery-solutions03.jpg?mode=crop&heightratio=0.4845360824742268041237113402&width=1110' class='image'/>
+
     </div>
   );
 }
